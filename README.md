@@ -32,6 +32,10 @@ This repository contains the code used for the study titled **"Lipid Profile Cha
 
 Each script is designed to be run sequentially, starting with data organization and ending with the main analysis. Detailed instructions on how to use the scripts and their dependencies can be found in the comments within each file.
 
+## Data Availability
+
+Please note that the raw data related to this study are not provided in this GitHub repository due to privacy concerns, as they contain sensitive clinical information about patients. The data supporting the findings of this study are available from the corresponding author, HaiBing Gao (gaohb605@163.com), upon reasonable request. However, access to these data is restricted and cannot be shared publicly to protect patient confidentiality.
+
 ## Citation
 
 If you use any part of this code or data for your own research, please cite the study as follows:  
