@@ -577,7 +577,6 @@ dt_ren_lip <- extraction3(fn_1, fn_2)
 
 ################################################################################
 # 整合数据
-# 练习盲打的目的是让自己的工作效率能够更快的获得提高，原来掌握盲打的秘诀还是在于记忆和练习
 
 rm(list = ls())
 setwd("~/sambashare/RWorkspace/R/clinical_investigation_2022/Lab_data/")
