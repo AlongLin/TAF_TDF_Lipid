@@ -10,7 +10,6 @@ setwd("~/Rspace/clinical_investigation_2022/Combination_data/") # On server
 load("./Patient_info/Combination_data.Rdata")
 
 # 添加第3年和第5年的数据
-# 第5年涉及到疫情防控对数据的影响，可能是本次研究的亮点
 
 summary(patient_info) 
 
@@ -33,9 +32,6 @@ patient_info <- patient_info %>%
 
 ################################################################################
 ##采用tibble 做容器的问题是，在for循环之后，变量的顺序不知道为何发生了变化。
-##我突然想起来，使用tibble作为容器的方法最早是从果子老师那里学习的，后面好像又
-##在张敬信老师那里读到1-2个范例。但，多次的实践发现，我对这种用什么来做循环数据的
-##容器问题，有点迷迷糊糊的。所以，这里应该存在一个我的知识盲区。
 
 # fn = patient_info$D30 # 提取时间点，我相信这里的顺序应该没后发生改变的
 #  
